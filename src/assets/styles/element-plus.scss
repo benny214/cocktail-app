@@ -1,0 +1,24 @@
+@import './variables';
+
+.select {
+  .el-input__wrapper {
+    background-color: $main-bg-c;
+    box-shadow:  0 0 0 1px $text-muted inset;
+    .el-select__icon {
+      svg {
+        path {
+          fill: $text-muted;
+        }
+      }
+    }
+  }
+  .el-input__inner {
+    color: $text-muted;
+  }
+}
+
+.el-select__popper {
+  .el-select-dropdown__item {
+    padding-left: 10px;
+  }
+}
